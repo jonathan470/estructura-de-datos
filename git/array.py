@@ -3,13 +3,13 @@ N = len(list)
 i = 1
 
 while i < N:
-    current = list[i]
+    Num_Actual = list[i]
     j = i - 1
-    while j >= 0 and list[j] > current:
+    while j >= 0 and list[j] > Num_Actual:
         list[j + 1] = list[j]
         j = j - 1
 
-    list[j + 1] = current
+    list[j + 1] = Num_Actual
     i = i + 1
 
 print(list)
