@@ -13,4 +13,3 @@ while i < N:
     i = i + 1
 
 print(list)
-
