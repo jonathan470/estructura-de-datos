@@ -1,6 +1,6 @@
 def arraydouble(array = [1, 7, 2, 21, 14]):
     Integer = len(array)
-    New_array = [array] * (Integer * 2)
+    New_array = [None] * (Integer * 2)
 
     j = 0
 
